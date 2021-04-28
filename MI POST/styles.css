@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karantina', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(143, 0, 0);
+}
+.card{
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background-color: #f3e089;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.picture{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.imagen{
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+span{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    transition: all 500ms ease;
+}
+span p{
+    margin: 10px 15px;
+    font-size: 22px;
+    transition: all 500ms ease;
+}
+.user{
+    width: 40px;
+    height: auto;
+    transition: all 500ms ease;
+}
+.context{
+    width: 100%;
+    margin: 20px auto;
+    transition: all 500ms ease;
+}
+.context p{
+    font-size: 21px;
+    pointer-events: none;
+    margin: 20px 15px;
+    transition: all 500ms ease;
+}
+.cont_a{
+    height: 50px;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+}
+.cont_a a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+    background-color: tomato;
+    padding: 7px 10px;
+    border-radius: 13px;
+    transition: all 600ms ease;
+    box-shadow: 3px 3px 8px grey;
+}
+.cont_a a:hover{
+    background-color: black;
+    color: white;
+}
